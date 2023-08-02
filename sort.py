@@ -130,7 +130,7 @@ def sort_files_folders(p):
 
             #print(','.join(elem.get('documents')))
             fh.write(  
-                f"{','.join(elem.get('archives'))}\n{','.join(elem.get('audio'))}\n{','.join(elem.get('documents'))}\n{','.join(elem.get('images'))}\n{','.join(elem.get('video'))}\n{','.join(elem.get('unknown'))}")  
+                f"{','.join(elem.get('archives'))}\n{','.join(elem.get('audio'))}\n{','.join(elem.get('documents'))}\n{','.join(elem.get('images'))}\n{','.join(elem.get('video'))}\n{','.join(elem.get('unknown'))}\n")  
         for elem in list_name_files:
             fh.write(elem + '\n')  
                  
